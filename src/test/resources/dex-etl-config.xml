@@ -1,0 +1,6 @@
+<!DOCTYPE config SYSTEM "dex-etl-1.0.0.dtd">
+<config>
+	<databases default="foo">
+		<database name="foo" alias="FOO" path="foo.dex" />
+	</databases>
+</config>

@@ -4,3 +4,6 @@
 *.jar
 *.war
 *.ear
+
+# Dex configuration files
+dex.cfg

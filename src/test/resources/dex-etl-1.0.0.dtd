@@ -1,0 +1,24 @@
+<!--
+Copyright (c) 2005-2012 Sparsity Technologies, Barcelona (Spain)
+
+This file is part of 'dexjava-etl'.
+
+'dexjava-etl' provides extract, transform and load (ETL) utilities 
+for dexjava-based projects. 'dexjava' is the Java API for the 'Dex'
+graph database.
+-->
+
+<!ELEMENT config (databases)>
+<!ELEMENT databases (database+)>
+
+<!ATTLIST database 
+    name ID #REQUIRED
+    alias CDATA #REQUIRED
+    path CDATA #REQUIRED
+    conf CDATA #IMPLIED
+	description CDATA #IMPLIED
+	>
+	
+<!ATTLIST databases 
+    default CDATA #REQUIRED
+    >

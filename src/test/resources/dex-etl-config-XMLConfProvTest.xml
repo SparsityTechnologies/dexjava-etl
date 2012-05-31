@@ -1,0 +1,9 @@
+<!DOCTYPE config SYSTEM "dex-etl-1.0.0.dtd">
+<config>
+	<databases default="foo1">
+		<database name="foo0" alias="FOO0" path="gdb0.dex" />
+		<database name="foo1" alias="FOO1" path="gdb1.dex" conf="gdb1.cfg" />
+		<database name="foo2" alias="FOO2" path="gdb2.dex"
+			description="GDB2 description" />
+	</databases>
+</config>
