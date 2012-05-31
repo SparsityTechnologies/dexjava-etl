@@ -1,4 +1,4 @@
-<!DOCTYPE config SYSTEM "dex-etl-1.0.0.dtd">
+<!DOCTYPE config SYSTEM "https://raw.github.com/SparsityTechnologies/dexjava-etl/master/src/main/resources/dex-etl-1.0.0.dtd">
 <config>
 	<databases default="foo1">
 		<database name="foo0" alias="FOO0" path="GDB0.dex" />

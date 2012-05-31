@@ -1,4 +1,4 @@
-#Êdexjava-etl
+# dexjava-etl
 
 Extract, transform and load (ETL) utilities for dexjava-based projects.
 
@@ -7,7 +7,7 @@ Extract, transform and load (ETL) utilities for dexjava-based projects.
 graph database, provided by 
 [Sparsity Technologies](http://www.sparsity-technologies.com/dex). 
 
-##ÊLicense
+## License
 
 This software is licensed under the GNU Lesser General Public License (LGPL) v3, 
 (the "License"). You may not use this file except in compliance with the License.
