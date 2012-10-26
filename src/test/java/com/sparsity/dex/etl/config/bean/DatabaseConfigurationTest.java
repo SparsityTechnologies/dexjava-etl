@@ -147,11 +147,14 @@ public class DatabaseConfigurationTest {
         }
     }
 
-    @Test
+    // @Test
     public void testSessionMultithread() throws InterruptedException {
         //
         // This test will work just if you have a Dex license with multi-Session
         // support.
+        //
+        // To be able to pass the tests at Travis CI, this test is disabled 
+        // (I won't upload a valid license to the repository!) 
         //
         dbConf.openDatabase();
 
