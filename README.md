@@ -1,13 +1,13 @@
 # dexjava-etl
 
-[![Build Status](https://travis-ci.org/sgomezvillamor/dexjava-etl.png)](https://travis-ci.org/sgomezvillamor/dexjava-etl)
-
 Extract, transform and load (ETL) utilities for dexjava-based projects.
 
 *dexjava* is the Java API for the 
 [Dex](http://www.sparsity-technologies.com/dex)
 graph database, provided by 
 [Sparsity Technologies](http://www.sparsity-technologies.com/dex). 
+
+Travis CI: [![Build Status](https://travis-ci.org/SparsityTechnologies/dexjava-etl.png)](https://travis-ci.org/SparsityTechnologies/dexjava-etl)
 
 ## License
 
