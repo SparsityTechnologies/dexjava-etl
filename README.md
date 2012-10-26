@@ -1,5 +1,7 @@
 # dexjava-etl
 
+[![Build Status](https://travis-ci.org/sgomezvillamor/dexjava-etl.png)](https://travis-ci.org/sgomezvillamor/dexjava-etl)
+
 Extract, transform and load (ETL) utilities for dexjava-based projects.
 
 *dexjava* is the Java API for the 
