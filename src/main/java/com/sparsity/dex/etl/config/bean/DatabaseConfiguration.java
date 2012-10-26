@@ -369,7 +369,7 @@ public class DatabaseConfiguration {
             db = null;
             try {
                 if (f.exists()) {
-                    db = dex.open(f.getAbsolutePath(), true);
+                    db = dex.open(f.getAbsolutePath(), false);
                     if (db.getAlias().compareTo(getAlias()) != 0) {
                         throw new DexUtilsException(
                                 "Database with an unexpected name/alias");
